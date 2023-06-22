@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    gap: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 8px 0 rgba(151, 77, 216, 0.50);
+}
+
+#counterTxt {
+    align-items: center;
+    height: 80px;
+    display: flex;
+    font-size: 40px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.button {
+    background: rgb(151, 77, 216);
+    color: #fff;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    border: none;
+}
